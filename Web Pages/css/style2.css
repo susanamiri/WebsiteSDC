@@ -1,0 +1,94 @@
+// Use this as template
+html {
+    padding: 0;
+    margin: 0;
+}
+body{
+	font-family: 'GothamPro';
+	text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+	text-decoration: none;
+
+}
+a:visited{
+    color:black;
+    
+    
+}
+#Mainmenue {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+#Mainmenue li {
+   background:#fcfcfc;
+    display: block;
+    height: 30px;
+    margin: 5px;
+    padding: 0;
+    width: 30px;
+    float:right;
+    border-radius: 50%;
+
+}
+#Mainmenue li a {
+    display: block;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    padding-top: 5px;
+    color: black;
+}
+.SectionPage {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    
+}
+#section1 {
+   /* background: url(../logo.img/urbansimulation.png) #fafafa;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#MenuNavBar {
+    padding: 0;
+    margin: 0;
+    height: 0;
+}
+#INTRODUCTION {
+    margin-top: 140px;
+    height: 100px;
+    width: 100%;
+    margin-left: 60px
+    /*text-align: center;*/
+
+    
+}
+#IntroductionChild {
+    background:white;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+   
+}
+#GENTRIFICATION {
+    font-size: 4em;
+    color: transparent;
+    background-image: url(../logo.img/nature.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+   
+}
